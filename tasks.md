@@ -4,7 +4,7 @@
 **Ссылка**: https://contest.yandex.ru/contest/36563/problems/
 
 #### Обязательные задачи:
-* A,B,C,D,E,F
+* A,B,C,D,E,F,G
 
 #### Необязательные задачи:
 * -
