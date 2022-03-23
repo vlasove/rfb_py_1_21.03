@@ -9,7 +9,7 @@ print(res)
 
 # Мультипликативная конкатенация (синтаксический сахар)
 result = name_str * 5 # name_str + name_str + name_str + name_str + name_str
-print(result) # Имеет смысл только при умножение на натуральное число
+print(result) # Имеет смысл только при умножении на натуральное число
 
 # Взятие длины
 len_of_name = len(third_name * 3)
