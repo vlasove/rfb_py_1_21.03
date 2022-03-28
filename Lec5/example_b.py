@@ -1,6 +1,5 @@
 # Условно-бесконечный цикл while
 
-
 while True:
     password = input()
     if len(password) > 10:
