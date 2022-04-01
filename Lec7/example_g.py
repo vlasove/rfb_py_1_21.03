@@ -32,3 +32,21 @@ print(message[:-1:1])
 print(message[::-1])
 
 print("Message:", message)
+
+
+message = input()
+msg = message
+print(message)
+
+i = 0
+while True:
+    if len(msg) > 2 and i % 2 == 0:
+        msg = msg[:-2]
+        i += 1
+    elif len(msg) > 2 and i % 2 != 0:
+        msg = msg[2:]
+        i += 1
+    elif len(msg) == 1 or len(msg) == 2:
+        break
+    
+    print(msg)
