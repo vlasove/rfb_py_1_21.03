@@ -18,7 +18,7 @@ birthdays = {
     "дек" : [],
 }
 
-n = int(input()) # Количество друзей для добавления в книгу
+n = int(input().strip()) # Количество друзей для добавления в книгу
 for _ in range(n):
     info = input().strip().split() # "Вася май" -> ["Вася", "май"]
     name = info[0]
@@ -26,7 +26,7 @@ for _ in range(n):
 
     birthdays[month].append(name)
 
-m = int(input()) # Количество запрос к книге
+m = int(input().strip()) # Количество запрос к книге
 for _ in range(m):
-    new_month = input()
-    print("Имена:", birthdays[new_month])
+    new_month = input().strip()
+    print(" ".join(sorted(birthdays[new_month])))
