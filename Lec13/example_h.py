@@ -20,7 +20,7 @@ def combination(n ,m):
     """
     Число сочетаний из n по m штук
     """
-    return factorial(n) // (factorial(m) * (factorial(n -m)))
+    return factorial(n) // (factorial(m) * factorial(n - m))
 
 def main():
     """
