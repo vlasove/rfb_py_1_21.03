@@ -2,7 +2,7 @@
 def choice(num):
     if num % 2 == 0:
         return "кратно двум"
-    elif num % 3 == 0:
+    if num % 3 == 0:
         return "кратен трем"
     return "не знаю, что это"
 

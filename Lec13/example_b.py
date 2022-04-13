@@ -10,3 +10,10 @@ hello()
 # Что такое функция с точки зрения интерпретатора? Это объект
 print(type(hello)) # type(hello)
 print(hello) # hello и hello()
+
+
+# ---- Решение задачи G ------
+def hello():
+    print("Привет из функции!")
+
+hello()

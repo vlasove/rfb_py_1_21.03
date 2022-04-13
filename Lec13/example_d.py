@@ -1,16 +1,26 @@
 # Простейший возврат
 def add(a, b):
-    return a**2 + b**3
+    res = a**2 + b**2 - 3*a*b
+    print("BEFORE PRINT")
+    return res
+    print('AFTER PRINT') # После передачи управления назад - последующий код становится недостижимым
 
-# add(2, -3)
-# add(-3, 2)
-# именованное обращение к аргументам (снимает требование к позициональности)
-# add(b=20, a=10)
-# Required Positional Args 
-# add(1, 2, 3)
-# add(10)
 
-#########################
-answer = add(2, -4) + add(1, 1) // 2 + add(2,3) ** 2
-print(f"Answer:{answer}")
- 
+
+
+result = add(11, 51) # в момент выполнения строки 6 происходит передача управления функции
+                     # add. Она расчитывает некое значение, и передает управлдение
+                     # назад с возвратом расчитанного значения
+print(result)
+
+def add_with_no_return(a, b):
+    res = a**2 + b**2 - 3*a*b
+    print("Result:", res)
+    # return None
+    # return
+
+# Мораль- в Python  функции всегда возвращают что-то. Если разработчик ничего не указал - вернется None
+print()
+print()
+result_with_no_return = add_with_no_return(10, 20)
+print(result_with_no_return)
