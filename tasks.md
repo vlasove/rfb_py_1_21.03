@@ -112,5 +112,5 @@
 
 
 
-### Фианльный проект
+### Финальный проект
 * Ссылка : https://contest.yandex.ru/contest/37347/problems/
