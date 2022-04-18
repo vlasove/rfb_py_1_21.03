@@ -5,6 +5,8 @@ example_a:
     * переменной (1 шт)
     * каким-то куском кода, который использует функцию и переменную
 """
+# import example_b as ex
+# print(ex.MAX_ATTEMPTS)
 
 def add(x_arg:int, y_arg:int):
     """
